@@ -4,52 +4,78 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <title>Document</title>
 </head>
 <body background="Fondo.png">
     <header>
-        <section>
-            <img src="Escudo_UN.png" alt="Escudo UNAL" width="100" height="100"-/>	
-        </section>
-
-    </header>
-    <center>
-        
-        <a id="w3loginbtn" class="w3-bar-item w3-btn bar-item-hover w3-right" style="display: inline; width: 130px; background-color: rgb(4, 170, 109); color: white; border-radius: 25px;" href="https://profile.w3schools.com/log-in?redirect_url=https%3A%2F%2Fmy-learning.w3schools.com" target="_self">Log in</a>
-
-
-        <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
-    <div class="dropdown-menu">
-        <form class="px-4 py-3">
-          <div class="form-group">
-            <label for="exampleDropdownFormEmail1">Email address</label>
-            <br/>
-            <input type="email" class="form-control" id="exampleDropdownFormEmail1" placeholder="email@example.com">
-          </div>
-          <div class="form-group">
-            <br/>
-            <label for="exampleDropdownFormPassword1">Password</label>
-            <br/>
-            <input type="password" class="form-control" id="exampleDropdownFormPassword1" placeholder="Password">
-          </div>
-          <div class="form-check">
-            <br/><br/><br/>
-            <input type="checkbox" class="form-check-input" id="dropdownCheck">
-            <label class="form-check-label" for="dropdownCheck">
-              Remember me
-            </label>
-            <button type="submit" class="btn btn-primary">Sign in</button>
-          </div>
-          
-        </form>
-        <div class="dropdown-divider"></div>
-        <a class="dropdown-item" href="#">Tienes cuenta? inciar sesion</a>
-        <br/>
-        <a class="dropdown-item" href="#">olvido su contraseña?</a>
-      </div>
     
-    </center>
-</body>
+            <a class="navbar-brand" href="#">
+                <img src="Escudo_UN.png" alt="" width="75" height="75"  class="d-inline-block align-text-center">
+            </a>
+  </header>
+
+
+
+<br/><br/><br/><br/>
+  <div class="container">
+    <div class="row">
+  <div class="col-md-5 mx-auto">
+  <div id="first">
+    <div class="myform form ">
+       <div class="logo mb-3">
+         <div class="col-md-12 text-center">
+          <h1>Login</h1>
+         </div>
+      </div>
+        <form action="" method="post" name="login" novalidate="novalidate">
+            <div class="form-group">
+              <label for="exampleInputEmail1">correo electrónico</label>
+              <input type="email" name="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="ejemplo@unal.edu.co">
+            </div>
+            <div class="form-group">
+              <label for="exampleInputEmail1">Contraseña</label>
+              <input type="password" name="password" id="password" class="form-control" aria-describedby="emailHelp" placeholder="ingrese su Contraseña">
+            </div>
+            <br/>
+            <div class="checkbox pull-right">
+              <label>
+                <input type="checkbox">
+                Recuerda me </label>
+            </div>
+            <div class="col-md-12 text-center ">
+              <button style="background-color: rgb(184, 21, 156); border-radius: 85px;" type="submit" class=" btn btn-block mybtn btn-primary tx-tfm">ingresar</button>
+            </div>
+          </br>
+            <div class="form-group">
+              <p class="text-center">No tienes cuenta? <a  class="text"  href="#" id="signup">registrarse</a></p>
+            </div>
+        </form>
+             
+    </div>
+  
+</div>
+  </div>
+    </div></div>
+  </br></br></br></br>
+  <nav class="navbar-green bg-success" style="--bs-bg-opacity: .35;">
+    <div class="container">  
+
+      <footer class="py-12 my-12">
+            
+                <ul class="nav justify-content-center border-bottom pb-3 mb-6">
+                  <li class="nav-item"><a href="#" class="nav-link px-2 text">Home</a></li>
+                  <li class="nav-item"><a href="#" class="nav-link px-2 text">Cononoce nuestro GitHub</a></li>
+                  <li class="nav-item"><a href="https://dninfoa.unal.edu.co" class="nav-link px-2 text">acerca de nosotros</a></li>
+                </ul>
+                <p class="text-center text">© 2022 Company, Inc</p>
+                <p class="text-center text">Julio Fuelagan, Nicolas Suarez </br> Luis Pulgar, Mateo Ramirez</p>
+                
+      </footer>
+    </div>
+  </nav>
+ </body>
+  
+
 
 </html>
