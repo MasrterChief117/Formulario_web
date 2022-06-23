@@ -1,0 +1,12 @@
+#boton1{
+    background-color: antiquewhite;
+    color: red;
+    border: none;
+    padding: 200px;
+    font-size: 16px;
+    margin: 40px 20px;
+    cursor: pointer;
+    border-radius: 80px;
+    width: 20px;
+    height: 20px;
+}
